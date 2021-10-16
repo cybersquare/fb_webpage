@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home | Facebook</title>
+	<link rel="icon" type="image/jpg" href="Images/fb_favicon.png"
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"></link>
+
+
+	<style> 
+
+	#header_container{
+		background-color: #3b5998;
+		color:#ffffff;
+
+	}
+	@media (max-width: 1199px) {
+	    #login_form {
+	        background: #ffffff; 
+	        color:#808080;
+	    }
+	    #left_pic_container{
+	    	text-align: center;
+	    }
+	    
+
+	}
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid" style="" id="header_container"><!-- header container-->
+		<div class="row" id="div_logo"><!-- logo-->
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" >
+				<img src="Images/fb_logo.png" class="img-responsive">
+			</div><!-- End logo-->
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="login_form"><!-- login form-->
+				<form action="" class="form-inline ">
+					<div class="form-group col-lg-4 col-md-12 col-sm-12 col-xs-12"><!-- Email-->
+						<label for="Email">Email</label>
+						<input type="text" class="form-control" placeholder="Email/ Phone" id="subscription" style="display:block; width:100%">
+					</div>
+					<div class="form-group col-lg-4 col-md-12 col-sm-12 col-xs-12">
+						<label for="Passoword">Password</label><!-- password-->
+						<input type="text" class="form-control" placeholder="Enter your password" id="email" style="display:block; width:100%">
+						Forgotten password?
+					</div>
+					<div class="form-group col-lg-2 col-md-12 col-sm-12 col-xs-12"><!--  button -->
+						<button type="submit" class="btn btn-info btn-block" style="margin-top:25px;">Login</button>
+					</div>
+				</form>
+			</div><!-- End login form-->
+		</div><!-- End row -->
+
+	</div><!-- End header container-->
+	<!-- body container -->
+
+	<div class="container-fluid" style="background: linear-gradient(#ffffff, #edf0f5); "><!-- body container--><br>
+		<div class="row"><!-- body left -->
+			<div class="col-lg-6 col-md-12 col-sm-12 hidden-xs" id="left_pic_container">
+				<h3 style="padding-left:100px;">
+				facebook helps you connect and share with the people in your life</h3><br><br>
+				<img src="images/connect.png" class="limg-responsive" style="padding-left:100px;" >
+			</div><!-- End body left -->
+
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" > <!-- Create Account -->
+				<h1 style="text-align:center;"> Create an account<br><small>It's free and always will be</small></h1>
+				<br><br><br>
+
+				<form action="" class="form-inline ">
+					<div class="form-group col-lg-6 col-md-12 col-sm-12 col-xs-12"><!-- Firstname-->
+						<input type="text" class="form-control" placeholder="First Name" id="txt_first_name" style="display:block; width:100%"><br>
+					</div>
+					<div class="form-group col-lg-6 col-md-12 col-sm-12 col-xs-12"><!-- Lastname-->
+						<input type="text" class="form-control" placeholder="Last Name" id="txt_last_name" style="display:block; width:100%"><br>
+					</div>
+					<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12"><!-- Mobile-->
+						<input type="text" class="form-control" placeholder="Mobile Number" id="txt_mobile" style="display:block; width:100%"><br>
+					</div>
+					<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12"><!-- Email-->
+						<input type="email" class="form-control" placeholder="Email" id="txt_email"  style="display:block; width:100%"><br>
+					</div>
+					<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12"><!-- Password-->
+						<input type="password" class="form-control" placeholder="Password" id="txt_password" style="display:block; width:100%"><br>
+					</div>
+				<br><div style="padding-left:20px;">Birthday<br>
+					<p><select 	><option>Day</option></select>
+					<select><option>Month</option></select>
+					<select><option>Year</option></select> <span><small>Why do I need to provide my date of birth?</small></span></p>
+				<input type="radio"> Female <input type="radio"> Male
+				</div>
+				<p class="col-lg-8" style="line-height: 90%; padding-top:10px;"> <small>By clicking Create an account, you agree to our Terms and confirm that you have read our Data Policy, including our Cookie Use Policy. You may receive SMS message notifications from Facebook and can opt out at any time.</small></p>
+				<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<input type="button" class="btn  btn-success btn block col-lg-4"value="Create an account">
+				</div>
+
+			</form>
+			</div><!-- End create Account -->
+
+		</div><!--End row -->
+		<br>
+	</div><!-- End body container-->
+	<div class="container"><!-- footer -->
+		<hr style="margin-top:3px; margin-bottom:3px;">
+		<p><small>
+			<span style="padding-right:20px"> Sign Up</span> 
+			<span style="padding-right:20px">Login </span>
+			<span style="padding-right:20px">Mobile </span>
+			<span style="padding-right:20px">Find Friends </span>
+			<span style="padding-right:20px">Pages </span>
+			<span style="padding-right:20px">Help</span>
+		</small></p>
+		<hr style="margin-top:3px; margin-bottom:3px;">
+		<p><small>Facebook &copy; 2017</small> </p>
+
+	</div><!-- End footer-->
+
+
+
+</body>
+</html>
